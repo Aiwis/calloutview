@@ -617,7 +617,7 @@ static UIImage *blackArrowImage = nil, *whiteArrowImage = nil, *grayArrowImage =
         
         if (!blackArrowImage) {
             blackArrowImage = [SMCalloutBackgroundView embeddedImageNamed:@"CalloutArrow"];
-            whiteArrowImage = [self image:blackArrowImage withColor:[UIColor whiteColor]];
+            whiteArrowImage = [self image:blackArrowImage withColor:[UIColor colorWithRed:46/255. green:204/255. blue:113/255. alpha:1.0]];
             grayArrowImage = [self image:blackArrowImage withColor:[UIColor colorWithWhite:0.85 alpha:1]];
         }
         
